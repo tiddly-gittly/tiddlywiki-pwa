@@ -1,0 +1,11 @@
+author: oeyoews
+core-version: >=5.3.0
+dependents: $:/plugins/oeyoews/tiddlywiki-tailwindcss-plus
+description: 
+list: readme
+name: Neotw Pwa
+parent-plugin: $:/plugins/oeyoews/neotw
+plugin-type: plugin
+title: $:/plugins/oeyoews/neotw-pwa
+type: application/json
+version: 0.0.1

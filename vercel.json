@@ -1,0 +1,7 @@
+{
+  "outputDirectory": "output",
+  "installCommand": "pnpm i --frozen-lockfile --prod",
+  "buildCommand": "pnpm build",
+  "cleanUrls": true,
+  "trailingSlash": false
+}
