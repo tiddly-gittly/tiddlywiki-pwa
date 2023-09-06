@@ -33,7 +33,7 @@ jobs:
       - name: Install Dependency
         run: pnpm install --frozen-lockfile
 
-      - name: Build Neotw
+      - name: Build Page
         run: pnpm build
 
       - name: Deploy
