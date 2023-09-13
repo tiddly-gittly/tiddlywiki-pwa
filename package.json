@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "tiddlywiki --listen",
-    "build": "tiddlywiki --build && cp files/manifest.json output/"
+    "build": "tiddlywiki --build index"
   },
   "keywords": [
     "template"

@@ -1,7 +1,7 @@
 author: oeyoews
 core-version: >=5.3.0
 dependents: $:/plugins/oeyoews/tiddlywiki-tailwindcss-plus
-description: 
+description: 让你的TiddlyWiki网页像app一样启动
 list: readme
 name: Neotw Pwa
 parent-plugin: $:/plugins/oeyoews/neotw

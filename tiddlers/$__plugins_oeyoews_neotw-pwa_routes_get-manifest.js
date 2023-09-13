@@ -9,17 +9,19 @@ GET /manifest.json
 (function () {
   /*jslint node: true, browser: true */
   /*global $tw: false */
-  "use strict";
+  'use strict';
 
-  exports.method = "GET";
-  exports.synchronous = true;
-
-  // exports.after = "story";
+  exports.method = 'GET';
 
   exports.path = /^\/manifest.json$/;
 
   exports.handler = function (request, response, state) {
-    var buffer = state.wiki.getTiddlerText("$:/manifest.json", ""); // 修改文件名
-    state.sendResponse(200, { "Content-Type": "application/json" }, buffer);
+    const data = state.wiki.getTiddlerText('$:/manifest.json');
+    state.sendResponse(
+      200,
+      { 'Content-Type': 'application/json' },
+      data,
+      'utf8',
+    );
   };
 })();
