@@ -1,2 +1,3 @@
-list: $:/plugins/oeyoews/neotw-pwa image.png
+list: 
 title: $:/StoryList
+type: text/vnd.tiddlywiki
